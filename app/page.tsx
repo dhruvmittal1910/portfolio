@@ -5,7 +5,7 @@ import Projects from "@/components/main/Projects"
 import ContactMe from "@/components/main/Contactme";
 import AboutMe from "@/components/main/AboutMe";
 import TapeSection from "@/components/main/TapeSection";
-import ExperienceSection from "@/components/main/ExperienceSection";
+// import ExperienceSection from "@/components/main/ExperienceSection";
 import ProjectsNew from "@/components/main/ProjectsNew"
 
 export default function Home() {

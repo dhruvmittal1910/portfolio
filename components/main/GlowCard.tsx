@@ -1,4 +1,4 @@
-import React,{useRef} from 'react'
+import React from 'react'
 
 interface GlowCardProps {
   card: {
@@ -13,7 +13,7 @@ interface GlowCardProps {
   index:number;
 }
 
-const GlowCard: React.FC<GlowCardProps> = ({ index, card, children }) => {
+const GlowCard: React.FC<GlowCardProps> = ({ children }) => {
 
 
   return (

@@ -5,7 +5,7 @@ interface Props {
   src: string, title: string, description: string, tech: string,link:string
 }
 
-const ProjectCard = ({ src, title, description, tech, link }: Props) => {
+const ProjectCard = ({ src, title, description, tech }: Props) => {
   return (
     <div className="relative card overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex flex-col h-[500px] w-100 mx-10  ">
       {/* Image container with fixed height */}

@@ -67,7 +67,7 @@ const HeroContent = () => {
                         width={650}
                     /> */}
 
-                    <img src="/mainIconsdark.svg" alt="dhruv" className='max-h-450px w-auto' />
+                    <Image src="/mainIconsdark.svg" alt="dhruv" className='max-h-450px w-auto' width={100} height={100} />
 
                     <div className='absolute z-[1000] flex justify-center items-center animate-pulse'>
                         <PiHexagonThin className='md:h-[100%] sm:h-[120%] min-h-[600px] text-purple-500 blur-md animate-[spin_20s_linear_infinite]  w-auto ' />

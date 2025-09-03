@@ -1,5 +1,5 @@
 "use client";
-import React,{useEffect,useRef,useState} from "react";
+import React,{useRef} from "react";
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import { expCards } from "../../constants/index";
@@ -14,44 +14,44 @@ const AboutMe = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Each word has position (x, y) and velocity (dx, dy)
-  const [items, setItems] = useState([
-    { text: "Data Engineer", x: 20, y: 20, dx: 2, dy: 1.5 },
-    { text: "Full Stack Developer", x: 100, y: 60, dx: -2, dy: 1.2 },
-    { text: "Data Analyst", x: 50, y: 120, dx: 1.5, dy: -2 },
-  ]);
+  // const [items, setItems] = useState([
+  //   { text: "Data Engineer", x: 20, y: 20, dx: 2, dy: 1.5 },
+  //   { text: "Full Stack Developer", x: 100, y: 60, dx: -2, dy: 1.2 },
+  //   { text: "Data Analyst", x: 50, y: 120, dx: 1.5, dy: -2 },
+  // ]);
 
-  useEffect(() => {
-    let animationFrame: number;
+  // useEffect(() => {
+  //   let animationFrame: number;
 
-    const animate = () => {
-      setItems((prev) =>
-        prev.map((item) => {
-          const container = containerRef.current;
-          if (!container) return item;
+  //   const animate = () => {
+  //     setItems((prev) =>
+  //       prev.map((item) => {
+  //         const container = containerRef.current;
+  //         if (!container) return item;
 
-          const rect = container.getBoundingClientRect();
-          const maxX = rect.width - 150; // account for box width
-          const maxY = rect.height - 40; // account for box height
+  //         const rect = container.getBoundingClientRect();
+  //         const maxX = rect.width - 150; // account for box width
+  //         const maxY = rect.height - 40; // account for box height
 
-          let { x, y, dx, dy } = item;
+  //         let { x, y, dx, dy } = item;
 
-          x += dx;
-          y += dy;
+  //         x += dx;
+  //         y += dy;
 
-          // Bounce logic
-          if (x <= 0 || x >= maxX) dx = -dx;
-          if (y <= 0 || y >= maxY) dy = -dy;
+  //         // Bounce logic
+  //         if (x <= 0 || x >= maxX) dx = -dx;
+  //         if (y <= 0 || y >= maxY) dy = -dy;
 
-          return { ...item, x, y, dx, dy };
-        })
-      );
+  //         return { ...item, x, y, dx, dy };
+  //       })
+  //     );
 
-      animationFrame = requestAnimationFrame(animate);
-    };
+  //     animationFrame = requestAnimationFrame(animate);
+  //   };
 
-    animationFrame = requestAnimationFrame(animate);
-    return () => cancelAnimationFrame(animationFrame);
-  }, []);
+  //   animationFrame = requestAnimationFrame(animate);
+  //   return () => cancelAnimationFrame(animationFrame);
+  // }, []);
 
   return (
     <section className="w-full md:mt-40 mt-20 section-padding xl:px-0" id="about-me">
@@ -223,9 +223,9 @@ const AboutMe = () => {
           Work Experience
         </motion.h1>
 
-            <div className="card card-border timeline-card rounded-xl p-10">
+          <div className="card card-border timeline-card rounded-xl p-10">
             <div className="flex items-start mt-5 gap-5">
-                <img src={utdallas.Image} alt="dallas" width={utdallas.width} />
+                <Image src={utdallas.Image} alt="dallas" width={utdallas.width} height={utdallas.height} />
               <div className="text-white">
                 <h3 className="font-semibold text-2xl ">Graduate Teaching Assistant</h3>
                 <p className="my-2 text-white-50 ">🗓️ August 2024 - December 2024</p>
@@ -242,7 +242,7 @@ const AboutMe = () => {
           {/* Card 1 */}
           <div className="card card-border timeline-card rounded-xl p-10">
             <div className="flex items-start mt-5 gap-5">
-                <img src={bmw.Image} alt="dallas" width={bmw.width} />
+                <Image src={bmw.Image} alt="dallas" width={bmw.width} height={bmw.height}/>
               <div className="text-white">
                 <h3 className="font-semibold text-2xl ">Analytics Engineer</h3>
                 <p className="my-2 text-white-50 ">🗓️ May 2023 - December 2023</p>
@@ -259,7 +259,7 @@ const AboutMe = () => {
           {/* Card 2 */}
           <div className="card card-border timeline-card rounded-xl p-10">
             <div className="flex items-start mt-5 gap-5">
-                <img src={unitas.Image} alt="dallas" width={unitas.width} />
+                <Image src={unitas.Image} alt="dallas" width={unitas.width} height={unitas.height}/>
               <div className="text-white">
                 <h3 className="font-semibold text-2xl ">Software Developer</h3>
                 <p className="my-2 text-white-50 ">🗓️ Jan 2022 - July 2022</p>
@@ -275,7 +275,7 @@ const AboutMe = () => {
 
           <div className="card card-border timeline-card rounded-xl p-10">
             <div className="flex items-start mt-5 gap-5">
-                <img src={revmeup.Image} alt="dallas" width={revmeup.width} />
+                <Image src={revmeup.Image} alt="dallas" width={revmeup.width} height={revmeup.height}/>
               <div className="text-white">
                 <h3 className="font-semibold text-2xl ">Software Developer</h3>
                 <p className="my-2 text-white-50 ">🗓️ January 2021 - July 2021</p>

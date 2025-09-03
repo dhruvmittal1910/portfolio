@@ -4,7 +4,6 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
-import LogoIntro from "@/components/main/LogoIntro"; // new client component wrapper
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
