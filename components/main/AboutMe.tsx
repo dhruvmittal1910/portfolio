@@ -225,13 +225,13 @@ const AboutMe = () => {
 
           <div className="card card-border timeline-card rounded-xl p-10">
             <div className="flex items-start mt-5 gap-5">
-                <Image src={utdallas.Image} alt="dallas" width={utdallas.width} height={utdallas.height} />
+              <Image src={utdallas.Image} alt="dallas" width={utdallas.width} height={utdallas.height} />
               <div className="text-white">
                 <h3 className="font-semibold text-2xl ">Graduate Teaching Assistant</h3>
                 <p className="my-2 text-white-50 ">🗓️ August 2024 - December 2024</p>
                 <p className="text-[#839cb5] italic">Responsibilities</p>
                 <ul className="list-disc ml-5">
-                  {expCards[1].responsibilities.map((r, i) => (
+                  {expCards[0].responsibilities.map((r, i) => (
                     <li key={i}>{r}</li>
                   ))}
                 </ul>
@@ -265,7 +265,7 @@ const AboutMe = () => {
                 <p className="my-2 text-white-50 ">🗓️ Jan 2022 - July 2022</p>
                 <p className="text-[#839cb5] italic">Responsibilities</p>
                 <ul className="list-disc ml-5">
-                  {expCards[1].responsibilities.map((r, i) => (
+                  {expCards[2].responsibilities.map((r, i) => (
                     <li key={i}>{r}</li>
                   ))}
                 </ul>
@@ -281,7 +281,7 @@ const AboutMe = () => {
                 <p className="my-2 text-white-50 ">🗓️ January 2021 - July 2021</p>
                 <p className="text-[#839cb5] italic">Responsibilities</p>
                 <ul className="list-disc ml-5">
-                  {expCards[1].responsibilities.map((r, i) => (
+                  {expCards[3].responsibilities.map((r, i) => (
                     <li key={i}>{r}</li>
                   ))}
                 </ul>

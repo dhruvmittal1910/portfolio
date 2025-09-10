@@ -60,14 +60,13 @@ const HeroContent = () => {
                     variants={slideInFromRight(0.8)}
                     className="w-full h-full flex justify-center items-center"
                 >
-                    {/* <Image
-                        src="/mainIconsdark.svg"
-                        alt="work icons"
-                        height={650}
-                        width={650}
-                    /> */}
 
-                    <Image src="/mainIconsdark.svg" alt="dhruv" className='max-h-450px w-auto' width={100} height={100} />
+                    <Image
+                      src="/photo-main-1.webp"
+                      alt="Hexagon"
+                      width={600} height={300}
+                      className="object-cover [clip-path:polygon(25%_6.7%,75%_6.7%,100%_50%,75%_93.3%,25%_93.3%,0%_50%)]"
+                    />
 
                     <div className='absolute z-[1000] flex justify-center items-center animate-pulse'>
                         <PiHexagonThin className='md:h-[100%] sm:h-[120%] min-h-[600px] text-purple-500 blur-md animate-[spin_20s_linear_infinite]  w-auto ' />

@@ -54,17 +54,17 @@ const ContactMe = () => {
 
     }
     return (
-        <div className='relative z-100 flex flex-col items-center justify-center py-5 px-5' id="contact-me">
+        <div className='relative flex flex-col items-center justify-center py-5 px-5' id="contact-me">
             <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
                 Contact Me
             </h1>
             {/* main form */}
 
             <div className="relative card npmrounded-xl shadow-lg border border-[#2A0E61] text-white shadow-[#2A0E61]/40 hover:shadow-[0_0_25px_#7042f8] transition-shadow duration-500 w-full md:w-1/2 bg-[#0f0f1a]/50 backdrop-blur-lg p-6">
-                <h3 className="text-[22px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-6 text-center">
+                <h3 className="text-[22px] z-30 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-6 text-center">
                     Send me a message — I’ll get back to you!
                 </h3>
-                <form onSubmit={handlesubmit} className="space-y-5">
+                <form onSubmit={handlesubmit} className="space-y-5 z-30">
                     <div className="relative">
                         <input
                             type="text"
@@ -107,14 +107,14 @@ const ContactMe = () => {
                             className="w-full py-3 px-4 border border-gray-600 rounded-lg bg-gray-800/50 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 min-h-[120px]"
                         />
                     </div>
-                    <div className="text-center pt-4">
+                    {/* <div className="text-center pt-4"> */}
                         <button
                             type="submit"
-                            className="inline-block w-full md:w-auto px-6 py-3 font-semibold text-white bg-gradient-to-r from-purple-600 to-cyan-500 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+                            className="relative inline-block w-full md:w-auto px-6 py-3 font-semibold text-white bg-gradient-to-r from-purple-600 to-cyan-500 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 z-50 cursor-pointer"
                         >
                             Send Message 🚀
                         </button>
-                    </div>
+                    {/* </div> */}
                 </form>
             </div>
         </div>

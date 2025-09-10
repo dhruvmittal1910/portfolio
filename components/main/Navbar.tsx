@@ -76,7 +76,7 @@ const Navbar = () => {
       </div>
       {/* dropdown in mobile view */}
       {isOpen && (
-        <div className="md:hidden flex flex-col gap-4 px-6 py-4 border border-[#7042f861] bg-[#0300145e] mr-[15px] rounded-b-xl z-40 text-gray-200">
+        <div className="md:hidden flex flex-col gap-4 px-6 py-4 border border-[#7042f861] bg-[#0300145e] mr-[15px] rounded-b-xl z-100 text-gray-200">
           <a
             href="#about-me"
             onClick={() => setIsOpen(false)}
