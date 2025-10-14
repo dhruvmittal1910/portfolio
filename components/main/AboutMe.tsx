@@ -120,7 +120,7 @@ const AboutMe = () => {
                     > 
                       <PiStarFourFill className="text-[#b49bff] mr-[10px] h-5 w-5" />
                       <h1 className="Welcome-text text-[13px]">
-                          Data Analyst 
+                          Software Developer 
                       </h1>
                     </motion.div>
 
@@ -137,7 +137,7 @@ const AboutMe = () => {
                     <h2 className="text-2xl font-semibold text-white mb-10"> Beyond Code </h2>
                 </div>
               
-                <div className="flex gap-2">
+                <div className="flex flex-wrap gap-2">
 
                   <motion.div
                     variants={slideInFromTop}

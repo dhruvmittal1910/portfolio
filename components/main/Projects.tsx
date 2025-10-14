@@ -10,7 +10,7 @@ const Projects = () => {
                 My Projects
             </h1>
             <div className='h-full w-full gap-10 px-10 items-center justify-center z-20'>
-                <Marquee speed={200} pauseOnHover={true}>
+                <Marquee speed={100} pauseOnHover={true}>
                     {projects.map((project,idx)=>(
                         <ProjectCard
                             key={idx}

@@ -434,7 +434,7 @@ export const projects=[
     src: "/docuChat-1.png",
     title: "DocuChat AI",
     description:
-      "AI based Chat bot that helps you answer any question based on the document you upload",
+      "Engineered a platform that delivers instant, context-aware answers from complex PDFs through retrieval-augmented generation (RAG), automated document interactions, and integrated monetization, resulting in highly accurate and efficient information retrieval",
     tech: "React, TypeScript, OpenAI, Pinecone, Langchain, Tailwind CSS, Clerk, Firebase",
     
   },
@@ -442,7 +442,7 @@ export const projects=[
     src: "/boston.png",
     title: "House Pricing Predictor ML",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Developed and deployed an end-to-end machine learning platform using Flask, enabling automated data preprocessing, model training, and real-time prediction via a web interface on Heroku",
     tech: "Python, SQL, Github, Docker, AWS",
     link:""
   },
@@ -450,7 +450,7 @@ export const projects=[
     src: "/domuLearn.png",
     title: "DomuLearn - Learning platform",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Designed an interactive platform where users register, track progress, and complete modules with dynamic feedback, directly addressing the need for secure onboarding and personalized progress management in an educational workflow.",
     tech: "Python, React, Fast API, Postgres, API, JWT, AWS",
     link:""
   },
@@ -458,7 +458,7 @@ export const projects=[
     src: "/AIEmail.png",
     title: "AI EMAIL Assistant Browser Ext.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Built an AI Assistant enabling AI generated replies integrated via a browser extension. Boosted email response efficiency by 60% through integration with Google Gemini for natural language understanding",
     tech: "Java, Spring, React, Gemini AI",
     link:""
   },
@@ -466,7 +466,7 @@ export const projects=[
     src: "/videoCall.png",
     title: "Video Call App - WebRTC",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Built a real-time video calling app for peer-to-peer communication & low latency. Engineered backend & deployed on AWS EC2 via Docker, ensuring high performance and scalability",
     tech: "WebRTC, Socket, React, Node.js, JavaScript, AWS, Docker",
     link:""
   },
@@ -474,24 +474,24 @@ export const projects=[
     src: "/JWT.png",
     title: "Subscription Management Platform",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tech: "WebRTC, Socket, React, Node.js, JavaScript, AWS, Docker",
+      "Created a production grade backend system implementing JWT authentication, server-side logic & API design. Integrated automated backend workflows for subscription handling, email notification and payment processes",
+    tech: "Node.js, Express, MongoDB, JWT, Upstash, API, TypeScript",
     link:""
   },
   {
     src: "/morris.png",
     title: "Morris Game AI",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tech: "WebRTC, Socket, React, Node.js, JavaScript, AWS, Docker",
+      "Built an AI based Game using Minimax & Alpha-Beta Pruning algorithms, reducing search space by 40%. Emphasized algorithmic performance and static evaluation heuristics to improve move prediction accuracy by 25",
+    tech: "C++, Java, Algorithms, Data Structures",
     link:""
   },
   {
     src: "/ecommerce.png",
     title: "Quick-N-Easy Ecommerce platform",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tech: "WebRTC, Socket, React, Node.js, JavaScript, AWS, Docker",
+      "Built an ecommerce platform with secure accounts, intuitive shopping, and fast checkout to make online purchases easy and reliable.",
+    tech: "React, Javascript, Redux, Node.js, Express, Mongodb, Stripe, JWT, API, CSS",
     link:""
   },
 ]

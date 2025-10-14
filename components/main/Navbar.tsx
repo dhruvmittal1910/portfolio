@@ -15,11 +15,11 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/logo4.png"
+            src="/iconMe.png"
             alt="logo"
             width={50}
             height={50}
-            className="cursor-pointer hover:animate-slowspin "
+            className="cursor-pointer hover:animate-slowspin rounded-full "
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
