@@ -8,6 +8,7 @@ import AboutMe from "@/components/main/AboutMe";
 import TapeSection from "@/components/main/TapeSection";
 // import ExperienceSection from "@/components/main/ExperienceSection";
 import ProjectsNew from "@/components/main/ProjectsNew"
+import CalendlyInline from "@/components/sub/CalendlyInline";
 
 export default function Home() {
  
@@ -23,6 +24,7 @@ export default function Home() {
         <ProjectsNew/>
         {/* contact me form */}
         <ContactMe/>
+        <CalendlyInline/>
       </div>
     </main>
   );

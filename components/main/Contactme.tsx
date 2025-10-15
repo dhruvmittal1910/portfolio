@@ -107,15 +107,18 @@ const ContactMe = () => {
                             className="w-full py-3 px-4 border border-gray-600 rounded-lg bg-gray-800/50 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 min-h-[120px]"
                         />
                     </div>
-                    {/* <div className="text-center pt-4"> */}
+                    <div className="text-center pt-4">
                         <button
                             type="submit"
                             className="relative inline-block w-full md:w-auto px-6 py-3 font-semibold text-white bg-gradient-to-r from-purple-600 to-cyan-500 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 z-50 cursor-pointer"
                         >
                             Send Message 🚀
                         </button>
-                    {/* </div> */}
+                    </div>
                 </form>
+
+                {/* add calendly linking here */}
+
             </div>
         </div>
     )

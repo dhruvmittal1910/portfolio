@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image"
 
 interface Props {
-  src: string, title: string, description: string, tech: string,link:string
+  src: string, title: string, description: string, tech: string,link?:string
 }
 
 const ProjectCard = ({ src, title, description, tech }: Props) => {

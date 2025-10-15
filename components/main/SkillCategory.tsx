@@ -30,7 +30,7 @@ const SkillCategory: React.FC<Props> = ({ title, skills, marquee = false }) => {
           <div className="w-4/5">
             <Marquee gradient={true} gradientColor={"[17, 24, 39]"} speed={50} pauseOnHover>
               {[...skills,...skills].map(({ skill_name, Image, width, height }, index) => (
-                <div key={skill_name} className="flex items-center p-2">
+                <div key={index} className="flex items-center p-2">
                   <SkillDataIcons
                     skill={skill_name}
                     idx={index}

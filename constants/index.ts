@@ -498,7 +498,7 @@ export const projects=[
 
 export const projects1=[
     {
-    src: "/student.png",
+    src: "/student-pipeline.png",
     title: "Student Performance Predictor ML Pipeline",
     description:
       "AI based Chat bot that helps you answer any question based on the document you upload",
@@ -509,31 +509,30 @@ export const projects1=[
     src: "/azureolist.png",
     title: "Olist E-commerce Data Pipeline",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tech: "Python, Azure Data Factory, Azure Data Lake, Azure Synapse, Databricks Spark, Power BI",
-    link:""
+      "Developed a cloud pipeline for fast, enriched analysis of e-commerce data and business metrics. Enabled interactive dashboards for instant visibility into performance and customer trends.",
+    tech:"Python, Azure Data Factory, ADLS Gen 2, Azure SQL, Power BI"
   },
   {
-    src: "/domuLearn.png",
+    src: "/smart-city.png",
     title: "Smart City Real Time Data Streaming Pipeline",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Built a high-throughput pipeline to seamlessly ingest, clean, and transform live smart city data for instant, reliable decision-making at scale",
     tech: "Python, Kafka, Spark, AWS S3, AWS Redshift, Power BI, SQL",
     link:""
   },
   {
-    src: "/AIEmail.png",
+    src: "/netflix.png",
     title: "Netflix Data Analytics",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Architected a robust data pipeline handling over 30 million Netflix records, facilitating comprehensive data modeling and analysis. The project delivered insights into over 20 million ratings, identifying top-rated movies, genre trends, and user-tag behavior for strategic decision-making.",
     tech: "Python, Snowflake, DBT, AWS S3, Tableau",
     link:""
   },
   {
-    src: "/videoCall.png",
+    src: "/real-time.png",
     title: "Real-time Stock Market Data Pipeline",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Developed a seamless automated pipeline to ingest, transform, and analyze live market data for real-time insights. Maintained data accuracy and ensured stable, uninterrupted processing through proactive monitoring and fast issue resolution",
     tech: "Python, Airflow, Kafka, Spark, AWS S3, AWs Glue, AWS Athena, AWS EC2",
     link:""
   },
